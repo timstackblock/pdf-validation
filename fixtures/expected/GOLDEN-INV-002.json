@@ -1,0 +1,4 @@
+{ "fixtureId": "GOLDEN-INV-002", "documentType": "invoice", "kind": "native", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Hyphenated name, Unpaid",
+  "expected": { "customerName": "Maria Garcia-Lopez", "accountNumber": "654321", "invoiceDate": "2026-12-01", "amountCents": 9900, "status": "Unpaid",
+    "lineItems": [ { "position": 1, "description": "Support plan", "amountCents": 9900 } ] } }

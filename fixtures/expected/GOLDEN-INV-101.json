@@ -1,0 +1,4 @@
+{ "fixtureId": "GOLDEN-INV-101", "documentType": "invoice", "kind": "scanned", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Image-only PDF, 200 dpi clean. No text layer; OCR required.",
+  "expected": { "customerName": "Scan Clean Co", "accountNumber": "808080", "invoiceDate": "2026-08-20", "amountCents": 150050, "status": "Paid",
+    "lineItems": [ { "position": 1, "description": "Inspection", "amountCents": 30000 }, { "position": 2, "description": "Repair", "amountCents": 120050 } ] } }

@@ -1,0 +1,4 @@
+{ "fixtureId": "GOLDEN-INV-104", "documentType": "invoice", "kind": "scanned", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Blurred, speckled, 1.5 degree skew",
+  "expected": { "customerName": "Noisy Scan Co", "accountNumber": "717171", "invoiceDate": "2026-09-09", "amountCents": 8000, "status": "Paid",
+    "lineItems": [ { "position": 1, "description": "Cleaning", "amountCents": 8000 } ] } }

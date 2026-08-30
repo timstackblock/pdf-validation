@@ -1,0 +1,5 @@
+{ "fixtureId": "GOLDEN-INV-105", "documentType": "invoice", "kind": "scanned", "expectedOutcome": "COMPLETED", "allowRejection": true,
+  "verifiedBy": "DRAFT: pending manual verification — open fixtures/pdf/GOLDEN-INV-105.pdf, confirm every value by eye, then replace this with your name", "verifiedOn": "2026-08-30",
+  "notes": "Image-only, 110 dpi, blurred + speckled. Deliberately ambiguous glyphs: account 100110 (1/I/l, 0/O), descriptions 'Item S5B8' and 'Item I1l0', amounts with 0/8/5. The system may FAIL (reject) this document; it must NOT COMPLETE with any value different from these.",
+  "expected": { "customerName": "Ambiguous Glyphs Co", "accountNumber": "100110", "invoiceDate": "2026-10-01", "amountCents": 150665, "status": "Overdue",
+    "lineItems": [ { "position": 1, "description": "Item S5B8", "amountCents": 100080 }, { "position": 2, "description": "Item I1l0", "amountCents": 50585 } ] } }

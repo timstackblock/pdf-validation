@@ -1,0 +1,5 @@
+{ "fixtureId": "GOLDEN-INV-106", "documentType": "invoice", "kind": "scanned", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "DRAFT: pending manual verification — open fixtures/pdf/GOLDEN-INV-106.pdf, confirm every value on all three pages by eye, then replace this with your name", "verifiedOn": "2026-08-30",
+  "notes": "Image-only AND multipage: page 1 header fields, page 2 line items, page 3 total. Tests page ordering + OCR across pages + field assembly.",
+  "expected": { "customerName": "Scanned Pages Inc", "accountNumber": "303303", "invoiceDate": "2026-11-11", "amountCents": 107525, "status": "Paid",
+    "lineItems": [ { "position": 1, "description": "Survey", "amountCents": 15000 }, { "position": 2, "description": "Drafting", "amountCents": 85000 }, { "position": 3, "description": "Filing", "amountCents": 7525 } ] } }

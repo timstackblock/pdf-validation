@@ -1,0 +1,2 @@
+{ "fixtureId": "GOLDEN-BAD-204", "documentType": "invoice", "kind": "native", "expectedOutcome": "FAILED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Status outside allow-list" }

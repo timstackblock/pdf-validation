@@ -1,0 +1,4 @@
+{ "fixtureId": "GOLDEN-INV-001", "documentType": "invoice", "kind": "native", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Canonical invoice, two line items",
+  "expected": { "customerName": "John Smith", "accountNumber": "123456", "invoiceDate": "2026-08-15", "amountCents": 125075, "status": "Paid",
+    "lineItems": [ { "position": 1, "description": "Consulting", "amountCents": 100000 }, { "position": 2, "description": "Travel", "amountCents": 25075 } ] } }

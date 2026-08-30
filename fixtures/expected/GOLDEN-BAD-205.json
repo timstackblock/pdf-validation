@@ -1,0 +1,2 @@
+{ "fixtureId": "GOLDEN-BAD-205", "documentType": "invoice", "kind": "native", "expectedOutcome": "FAILED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Line items sum to 20.00 but Amount says 25.00" }

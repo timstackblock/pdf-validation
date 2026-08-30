@@ -1,0 +1,5 @@
+{ "fixtureId": "GOLDEN-INV-007", "documentType": "invoice", "kind": "native", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "DRAFT: pending manual verification — open fixtures/pdf/GOLDEN-INV-007.pdf, confirm every value by eye, then replace this with your name", "verifiedOn": "2026-08-30",
+  "notes": "Leading-zero account number 012345 must round-trip PDF -> database as the string \"012345\" (never 12345). Sub-dollar line item $0.50.",
+  "expected": { "customerName": "Leading Zero Ltd", "accountNumber": "012345", "invoiceDate": "2026-10-10", "amountCents": 100050, "status": "Unpaid",
+    "lineItems": [ { "position": 1, "description": "Onboarding", "amountCents": 50 }, { "position": 2, "description": "Licence", "amountCents": 100000 } ] } }

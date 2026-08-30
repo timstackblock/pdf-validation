@@ -1,0 +1,4 @@
+{ "fixtureId": "GOLDEN-INV-102", "documentType": "invoice", "kind": "scanned", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Image-only, 120 dpi low resolution",
+  "expected": { "customerName": "Low Res Ltd", "accountNumber": "909090", "invoiceDate": "2026-05-05", "amountCents": 250000, "status": "Unpaid",
+    "lineItems": [ { "position": 1, "description": "Retainer", "amountCents": 250000 } ] } }

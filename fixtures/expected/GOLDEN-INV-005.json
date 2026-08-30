@@ -1,0 +1,4 @@
+{ "fixtureId": "GOLDEN-INV-005", "documentType": "invoice", "kind": "native", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Rotated page attribute but native text layer (NOT an OCR rotation test; see GOLDEN-INV-103)",
+  "expected": { "customerName": "Rotated Native", "accountNumber": "424242", "invoiceDate": "2026-07-04", "amountCents": 50000, "status": "Paid",
+    "lineItems": [ { "position": 1, "description": "Service", "amountCents": 50000 } ] } }

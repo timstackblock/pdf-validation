@@ -1,0 +1,3 @@
+{ "fixtureId": "GOLDEN-INV-006", "documentType": "invoice", "kind": "native", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Zero amount, empty line-item table",
+  "expected": { "customerName": "Zero Balance LLC", "accountNumber": "505050", "invoiceDate": "2026-01-01", "amountCents": 0, "status": "Paid", "lineItems": [] } }

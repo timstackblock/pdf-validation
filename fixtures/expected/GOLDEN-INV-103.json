@@ -1,0 +1,4 @@
+{ "fixtureId": "GOLDEN-INV-103", "documentType": "invoice", "kind": "scanned", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Image physically rotated 90 degrees — true OCR orientation test",
+  "expected": { "customerName": "Rotated Scan Inc", "accountNumber": "616161", "invoiceDate": "2026-06-06", "amountCents": 75000, "status": "Overdue",
+    "lineItems": [ { "position": 1, "description": "Audit", "amountCents": 75000 } ] } }

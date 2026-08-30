@@ -1,0 +1,4 @@
+{ "fixtureId": "GOLDEN-INV-003", "documentType": "invoice", "kind": "native", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Seven-figure amount, leap day, Overdue",
+  "expected": { "customerName": "Acme Corp", "accountNumber": "100200", "invoiceDate": "2028-02-29", "amountCents": 124598325, "status": "Overdue",
+    "lineItems": [ { "position": 1, "description": "Hardware", "amountCents": 120000000 }, { "position": 2, "description": "Install", "amountCents": 4598325 } ] } }

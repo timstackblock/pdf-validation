@@ -1,0 +1,2 @@
+{ "fixtureId": "GOLDEN-BAD-201", "documentType": "invoice", "kind": "native", "expectedOutcome": "FAILED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "OCR-style amount $1,25O.75 must be rejected by transformation" }

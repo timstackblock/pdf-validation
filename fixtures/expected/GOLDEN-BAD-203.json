@@ -1,0 +1,2 @@
+{ "fixtureId": "GOLDEN-BAD-203", "documentType": "invoice", "kind": "native", "expectedOutcome": "FAILED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Impossible date 02/30" }

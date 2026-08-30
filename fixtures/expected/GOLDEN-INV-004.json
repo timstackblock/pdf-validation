@@ -1,0 +1,4 @@
+{ "fixtureId": "GOLDEN-INV-004", "documentType": "invoice", "kind": "native", "expectedOutcome": "COMPLETED",
+  "verifiedBy": "QA", "verifiedOn": "2026-08-30", "notes": "Fields split across two pages",
+  "expected": { "customerName": "Multi Page Inc", "accountNumber": "777777", "invoiceDate": "2026-03-03", "amountCents": 1010, "status": "Paid",
+    "lineItems": [ { "position": 1, "description": "Widget A", "amountCents": 505 }, { "position": 2, "description": "Widget B", "amountCents": 505 } ] } }

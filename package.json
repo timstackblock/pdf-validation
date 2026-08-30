@@ -1,0 +1,39 @@
+{
+  "name": "pdf-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fixtures": "tsx fixtures/gen/generate-pdfs.ts",
+    "test": "npm run test:golden && npm run test:random",
+    "test:golden": "NODE_ENV=test ALLOW_GOLDEN_DB_RESET=true NODE_OPTIONS=--experimental-vm-modules jest --selectProjects golden --runInBand",
+    "test:golden:system": "NODE_ENV=test ALLOW_GOLDEN_DB_RESET=true NODE_OPTIONS=--experimental-vm-modules jest --selectProjects golden --runInBand golden/tests/5 golden/tests/6",
+    "test:golden:remote": "NODE_ENV=test ALLOW_GOLDEN_DB_RESET=true NODE_OPTIONS=--experimental-vm-modules jest --selectProjects golden --runInBand golden/tests/0 golden/tests/5",
+    "test:golden:drafts": "GOLDEN_INCLUDE_DRAFTS=true NODE_ENV=test ALLOW_GOLDEN_DB_RESET=true NODE_OPTIONS=--experimental-vm-modules jest --selectProjects golden --runInBand",
+    "test:random": "NODE_OPTIONS=--experimental-vm-modules jest --selectProjects random --runInBand",
+    "serve": "tsx app/server.ts",
+    "validate:pdf": "tsx random/src/cli.ts",
+    "review": "tsx random/src/cli.ts review",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^2.4.5"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.4.0",
+    "jest": "^30.5.0",
+    "ts-jest": "^29.4.12",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
