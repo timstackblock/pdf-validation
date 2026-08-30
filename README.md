@@ -1,11 +1,14 @@
 # pdf-validation
 
-Reference implementation of two PDF-ingestion validation suites. **All documentation lives in
-[`../pdf_validation_testplans_and_readmes/`](../pdf_validation_testplans_and_readmes/README.md)** — design,
-test plans with traceability, setup, and the map from this code to the design.
+Reference implementation of two PDF-ingestion validation suites. **All documentation lives in [`pdf_validation_docs/`](pdf_validation_docs/)** — design,
+test plans with traceability, setup, and the map from this code to the design:
+[golden validation](pdf_validation_docs/README_GOLDEN_PDF_VALIDATION.md)
+([test plan](pdf_validation_docs/TEST_PLAN_GOLDEN_PDF_VALIDATION.md)) ·
+[random reconciliation](pdf_validation_docs/README_RANDOM_PDF_RECONCILIATION.md)
+([test plan](pdf_validation_docs/TEST_PLAN_RANDOM_PDF_RECONCILIATION.md)).
 
 ```bash
-npm install                  # Node >= 20; tesseract, poppler, ImageMagick — see ../pdf_validation_testplans_and_readmes/INSTALL.md
+npm install                  # Node >= 20; tesseract, poppler, ImageMagick — see pdf_validation_docs/README_GOLDEN_PDF_VALIDATION.md § Prerequisites
 npm test                     # golden (levels 0–6) + random
 npm run test:golden:drafts   # include the DRAFT fixtures
 npm run test:golden:remote   # level 5 against PDF_INGEST_API_URL / TEST_DATABASE_URL
